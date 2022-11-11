@@ -3,19 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package proyecto21giin2223;
-
+package Vista;
+import Controladores.ControladorUsuario;
+import Modelo.Usuario;
 /**
  *
  * @author jeron
  */
-public class Proyecto21Giin2223 {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        
+        System.out.println("Iniciando sesion");
+        Usuario nuevo = ControladorUsuario.inicarSesion("jero", "1234");
+        System.out.println("Sesion Iniciada: "+ nuevo.getNombre());
     }
     
 }

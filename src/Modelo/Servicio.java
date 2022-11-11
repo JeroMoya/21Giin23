@@ -3,23 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Model;
+package Modelo;
 
 import java.util.List;
 
 /**
- *
+ *Clase correspondiente a los diferentes servicios de la comunidad
  * @author jeron
  */
-public class Service {
+public class Servicio {
     //nombre del servicio, es identificador del servicio
-    private String name;
+    private String nombre;
     
     //Indica si el servicio es obligatorio
-    private boolean mandatory;
+    private boolean obligatorio;
     
-    //ASK Actividades que realiza la gestion del barrio
-    //private List<Activity> activities;
+
+    
+
     
     
     

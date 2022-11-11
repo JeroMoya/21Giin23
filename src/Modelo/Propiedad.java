@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Model;
+package Modelo;
 
 import java.util.List;
 
 /**
- *
+ *Clase que define los inmuebles de los usuarios
  * @author jeron
  */
-public class Property {
-    private Integer Identifier;
-    private List<Service> services;    
+public class Propiedad {
+    /**
+     * Identificador de la propiedad
+     */   
+    private String identificador;
+    
 }

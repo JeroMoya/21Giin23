@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Model;
+package Modelo;
 
 /**
- *
+ * Define los tipos de usuario existentes
  * @author jeron
  */
-public class Settlement {
-    private Integer Identifier;
-    private Property property;
-    private Bill bill;
+public enum TipoUsuario
+{
+    Administrador,Vecino
 }
